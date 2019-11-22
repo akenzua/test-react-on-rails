@@ -4,7 +4,8 @@ class HelloWorld extends React.Component {
   render () {
     return (
       <React.Fragment>
-        Meant: {this.props.greeting}
+        <h1>Proper English Greetings</h1>
+        Greetings : {this.props.greeting}
       </React.Fragment>
     );
   }
